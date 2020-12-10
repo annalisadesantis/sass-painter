@@ -1,0 +1,30 @@
+header{
+    background-color: $color_header;
+    color: $first_color;
+    height: 80px;
+
+    .header-top, .header-bottom{
+        @include flex-row(flex-end,center);
+        height: 40px;
+    }
+}
+
+.header-top{
+    font-size: $font-size_header;
+
+    i{
+        color: $click_color;
+        margin-left: $big_spacing;
+    }
+
+    a{
+        color: $second_color;
+        margin-left: 6px;
+    }
+
+    select{
+        color: $color_select;
+        outline: 0;
+        margin-left: $big_spacing;
+    }
+}
