@@ -11,34 +11,111 @@ body {
 header {
   background-color: #101010;
   color: #fff;
-  height: 80px;
-}
-
-header .header-top,
-header .header-bottom {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 40px;
 }
 
 .header-top {
-  font-size: 12px;
+  display: none;
 }
 
-.header-top i {
-  color: #009cff;
-  margin-left: 20px;
+.header-bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
 }
 
-.header-top a {
-  color: #9d9d9d;
-  margin-left: 6px;
+.header-bottom .hambuger {
+  display: block;
 }
 
-.header-top select {
-  color: #101010;
-  outline: 0;
-  margin-left: 20px;
+.header-bottom .hambuger i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header-bottom .logo {
+  width: 90px;
+  height: 25px;
+  margin: 20px auto;
+}
+
+.header-bottom .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-bottom .nav-menu {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .header-top {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+  }
+
+  .header-top i {
+    color: #009cff;
+    margin-left: 20px;
+  }
+
+  .header-top a {
+    color: #9d9d9d;
+    margin-left: 6px;
+  }
+
+  .header-top a:hover {
+    color: #fff;
+  }
+
+  .header-top select {
+    color: #101010;
+    outline: 0;
+    margin-left: 20px;
+  }
+
+  .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+
+  .header-bottom .hambuger {
+    display: none;
+  }
+
+  .header-bottom .logo {
+    margin-bottom: 25px;
+    margin: 0;
+  }
+
+  .header-bottom .nav-menu {
+    display: block;
+  }
+
+  .header-bottom .nav-menu ul {
+    list-style-type: none;
+  }
+
+  .header-bottom .nav-menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  .header-bottom .nav-menu ul li:hover {
+    background-color: #f1f1f1;
+    color: #101010;
+  }
+
+  .header-bottom .nav-menu ul li i {
+    font-size: 9px;
+  }
 }
 
