@@ -133,6 +133,71 @@ footer {
   width: 100vw;
 }
 
+footer .footer-top {
+  background-color: #ececec;
+  width: 100%;
+}
+
+footer .footer-top h4 {
+  color: #000;
+  font-size: 15px;
+}
+
+footer .footer-top ul {
+  list-style-type: none;
+}
+
+footer .footer-top ul li {
+  color: #4d4d4d;
+  cursor: pointer;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+footer .footer-top ul li:hover {
+  text-decoration: underline;
+}
+
+footer .footer-top .social-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer .footer-top .social-box .social-icon {
+  width: 34px;
+  height: 34px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+footer .footer-top .social-box .social-icon i {
+  font-size: 24px;
+  margin: 5px 0px;
+  color: #fff;
+}
+
+footer .footer-top .social-box .instagram {
+  background-color: #de5d83;
+}
+
+footer .footer-top .social-box .facebook {
+  background-color: #191970;
+}
+
+footer .footer-top .social-box .twitter {
+  background-color: #73c2fb;
+}
+
+footer .footer-top .social-box .youtube {
+  background-color: #ed1c24;
+}
+
+footer .footer-top .social-box .pinterest {
+  background-color: #b22222;
+}
+
 footer .footer-bottom {
   background-color: #1e1e1e;
   width: 100%;
@@ -188,6 +253,11 @@ footer .footer-bottom .copyright ul li {
   cursor: pointer;
   margin-right: 20px;
   font-size: 12px;
+}
+
+footer .footer-bottom .copyright ul li:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
 footer .footer-bottom .copyright span {
