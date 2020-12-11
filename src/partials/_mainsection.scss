@@ -1,0 +1,135 @@
+// Download
+
+section.download{
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+    height: 463px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+
+    .brand{
+        position: absolute;
+        top: 85%;
+        left: 6%;
+        color: #ddd;
+        font-size: $font-size_header;
+    }
+
+    .mycontainer{
+        @include flex-row(flex-end,center);
+
+        .scarica{
+            width: 500px;
+            height: 440px;
+            margin-top: 23px;
+            padding-left: $big_spacing;
+            @include flex-column(column,flex-start,flex-start);
+            color: $first_color;
+
+            h1{
+                font-size: 29px;
+            }
+
+            h3{
+                font-size: $font-size_header * 2;
+                margin-bottom: $big_spacing;
+            }
+
+            ul{
+                list-style-type: none;
+
+                li{
+                    font-size: 16px;
+                    margin-bottom: $small_spacing;
+
+                    i{
+                        font-size: 12px;
+                        color: $second_color;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .botton-download{
+                width: 205px;
+                height: 64px;
+                background-color: rgb(102,102,102);
+                padding: 10px 15px 10px 15px;
+                cursor: pointer;
+
+                &:hover{
+                    opacity: 0.85;
+                }
+
+                .text{
+                    margin-right: 25px;
+                }
+
+                .icon{
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .compra{
+            width: 400px;
+            height: 440px;
+            background-color: $color_header;
+            margin-top: 23px;
+            padding-left: $big_spacing;
+            @include flex-column(column,flex-start,flex-start);
+            position: relative;
+
+
+            img{
+                position: relative;
+                top: 20px;
+                left: 280px;
+            }
+
+
+            .price{
+                font-size: $font-size_header * 2;
+                color: $first_color;
+            }
+
+            .text{
+                color: $second_color;
+                margin-top: $small_spacing;
+            }
+
+            .buy{
+                margin-top: $big_spacing;
+                min-width: 150px;
+                background-color: $click_color;
+                padding: $small_spacing $big_spacing;
+                border: 0;
+                color: $first_color;
+            }
+
+            .limited{
+                margin-top: $big_spacing;
+                background-color: $first_color;
+                padding: $small_spacing $big_spacing;
+
+                h5{
+                    color: $color_header;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+
+                p{
+                    color: $color_header;
+                    font-size: 14px;
+                }
+
+                a{
+                    color: rgb(0, 156, 255);
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

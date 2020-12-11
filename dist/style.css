@@ -31,28 +31,23 @@ header {
   align-items: center;
   height: 50px;
 }
-
 .header-bottom .hambuger {
   display: block;
   margin-left: 20px;
 }
-
 .header-bottom .hambuger i {
   font-size: 20px;
   cursor: pointer;
 }
-
 .header-bottom .logo {
   width: 90px;
   height: 25px;
   margin: 20px auto;
 }
-
 .header-bottom .logo img {
   width: 100%;
   height: 100%;
 }
-
 .header-bottom .nav-menu {
   display: none;
 }
@@ -65,21 +60,17 @@ header {
     align-items: center;
     height: 40px;
   }
-
   .header-top i {
     color: #009cff;
     margin-left: 20px;
   }
-
   .header-top a {
     color: #9d9d9d;
     margin-left: 6px;
   }
-
   .header-top a:hover {
     color: #fff;
   }
-
   .header-top select {
     color: #101010;
     outline: 0;
@@ -92,24 +83,19 @@ header {
     align-items: center;
     height: 50px;
   }
-
   .header-bottom .hambuger {
     display: none;
   }
-
   .header-bottom .logo {
     margin-bottom: 25px;
     margin: 0;
   }
-
   .header-bottom .nav-menu {
     display: block;
   }
-
   .header-bottom .nav-menu ul {
     list-style-type: none;
   }
-
   .header-bottom .nav-menu ul li {
     display: inline-block;
     margin-left: 20px;
@@ -117,53 +103,157 @@ header {
     cursor: pointer;
     padding: 4px;
   }
-
   .header-bottom .nav-menu ul li:hover {
     background-color: #f1f1f1;
     color: #101010;
   }
-
   .header-bottom .nav-menu ul li i {
     font-size: 9px;
     color: #9d9d9d;
   }
 }
-
-footer {
-  width: 100vw;
+section.download {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  height: 463px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+section.download .brand {
+  position: absolute;
+  top: 85%;
+  left: 6%;
+  color: #ddd;
+  font-size: 12px;
+}
+section.download .mycontainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+section.download .mycontainer .scarica {
+  width: 500px;
+  height: 440px;
+  margin-top: 23px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: #fff;
+}
+section.download .mycontainer .scarica h1 {
+  font-size: 29px;
+}
+section.download .mycontainer .scarica h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+section.download .mycontainer .scarica ul {
+  list-style-type: none;
+}
+section.download .mycontainer .scarica ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+section.download .mycontainer .scarica ul li i {
+  font-size: 12px;
+  color: #9d9d9d;
+  margin-right: 5px;
+}
+section.download .mycontainer .scarica .botton-download {
+  width: 205px;
+  height: 64px;
+  background-color: #666666;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+}
+section.download .mycontainer .scarica .botton-download:hover {
+  opacity: 0.85;
+}
+section.download .mycontainer .scarica .botton-download .text {
+  margin-right: 25px;
+}
+section.download .mycontainer .scarica .botton-download .icon i {
+  font-size: 20px;
+}
+section.download .mycontainer .compra {
+  width: 400px;
+  height: 440px;
+  background-color: #101010;
+  margin-top: 23px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+section.download .mycontainer .compra img {
+  position: relative;
+  top: 20px;
+  left: 280px;
+}
+section.download .mycontainer .compra .price {
+  font-size: 24px;
+  color: #fff;
+}
+section.download .mycontainer .compra .text {
+  color: #9d9d9d;
+  margin-top: 10px;
+}
+section.download .mycontainer .compra .buy {
+  margin-top: 20px;
+  min-width: 150px;
+  background-color: #009cff;
+  padding: 10px 20px;
+  border: 0;
+  color: #fff;
+}
+section.download .mycontainer .compra .limited {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+section.download .mycontainer .compra .limited h5 {
+  color: #101010;
+  font-weight: bold;
+  font-size: 18px;
+}
+section.download .mycontainer .compra .limited p {
+  color: #101010;
+  font-size: 14px;
+}
+section.download .mycontainer .compra .limited a {
+  color: #009cff;
+  font-size: 14px;
 }
 
 footer .footer-top {
   background-color: #ececec;
   width: 100%;
 }
-
 footer .footer-top h4 {
   color: #000;
   font-size: 15px;
 }
-
 footer .footer-top ul {
   list-style-type: none;
 }
-
 footer .footer-top ul li {
   color: #4d4d4d;
   cursor: pointer;
   line-height: 24px;
   font-size: 12px;
 }
-
 footer .footer-top ul li:hover {
   text-decoration: underline;
 }
-
 footer .footer-top .social-box {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-
 footer .footer-top .social-box .social-icon {
   width: 34px;
   height: 34px;
@@ -171,70 +261,56 @@ footer .footer-top .social-box .social-icon {
   text-align: center;
   cursor: pointer;
 }
-
 footer .footer-top .social-box .social-icon i {
   font-size: 24px;
   margin: 5px 0px;
   color: #fff;
 }
-
 footer .footer-top .social-box .instagram {
   background-color: #de5d83;
 }
-
 footer .footer-top .social-box .facebook {
   background-color: #191970;
 }
-
 footer .footer-top .social-box .twitter {
   background-color: #73c2fb;
 }
-
 footer .footer-top .social-box .youtube {
   background-color: #ed1c24;
 }
-
 footer .footer-top .social-box .pinterest {
   background-color: #b22222;
 }
-
 footer .footer-bottom {
   background-color: #1e1e1e;
   width: 100%;
 }
-
 footer .footer-bottom .img-footer-bottom {
   margin: 15px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 footer .footer-bottom .img-footer-bottom .image {
   display: inline-block;
   margin-left: 10px;
 }
-
 footer .footer-bottom .img-footer-bottom .image img {
   width: 100%;
   height: 100%;
 }
-
 footer .footer-bottom .img-footer-bottom .image1 {
   width: 53px;
   height: 60px;
 }
-
 footer .footer-bottom .img-footer-bottom .image2 {
   width: 100px;
   height: 50px;
 }
-
 footer .footer-bottom .img-footer-bottom .image3 {
   width: 125px;
   height: 55px;
 }
-
 footer .footer-bottom .copyright {
   margin: 30px 0px;
   display: flex;
@@ -242,11 +318,9 @@ footer .footer-bottom .copyright {
   justify-content: center;
   align-items: center;
 }
-
 footer .footer-bottom .copyright ul {
   list-style-type: none;
 }
-
 footer .footer-bottom .copyright ul li {
   display: inline-block;
   color: #999;
@@ -254,12 +328,10 @@ footer .footer-bottom .copyright ul li {
   margin-right: 20px;
   font-size: 12px;
 }
-
 footer .footer-bottom .copyright ul li:hover {
   text-decoration: underline;
   color: #fff;
 }
-
 footer .footer-bottom .copyright span {
   color: #fff;
   font-size: 12px;
@@ -271,18 +343,14 @@ footer .footer-bottom .copyright span {
     float: left;
     display: inline-block;
   }
-
   footer .footer-bottom .img-footer-bottom .image {
     margin-right: 20px;
   }
-
   footer .footer-bottom .copyright {
     float: right;
     display: inline-block;
   }
-
   footer .footer-bottom .copyright ul {
     display: inline-block;
   }
 }
-
